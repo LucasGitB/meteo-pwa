@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" href="/weatherIcon.adb12477.png">
+    <link rel="manifest" href="/meteoWebmanifest.webmanifest">
+    <link rel="icon" type="image/png" href="/weatherIcon.adb12477.png">
+    <link rel="stylesheet" href="/index.61d3354a.css">
+    <title>Météo</title>
+</head>
+<body class="bg-blue-400">
+    
+    <div class="flex justify-center w-full text-blue-50 text-[28px] font-bold">Météo</div>
+
+    <div class="flex justify-center w-full text-blue-50 text-[45px] font-bold">Aujourd'hui</div>
+
+    <div id="cityName" class="flex justify-center w-full text-blue-50 text-[45px]"></div>
+
+    <div class="flex justify-center w-full"><img id="dayTemps" alt=""></div>
+    
+    <div class="flex justify-center w-full text-blue-50 text-[78px] font-bold">
+        <p id="dayTemperature"></p>
+        <p>°</p>
+    </div>
+
+    <div class="flex justify-center bg-blue-300 m-5 rounded-2xl text-blue-50 flex-row gap-14">
+        <p>Jours <i class="fa-solid fa-calendar-days"></i></p>
+        <p>Temps <i class="fa-solid fa-cloud"></i></p>
+        <p>Températures <i class="fa-solid fa-temperature-three-quarters"></i></p>
+       
+    </div>
+    <div id="weatherContainer" class="flex justify-center flex-col bg-blue-300 m-5 rounded-2xl text-blue-50 font-bold">
+
+       
+    </div>
+
+    <div class="flex justify-center gap-6">
+        <button type="button" id="btnPreviousCity" class="disabled:text-gray-400 bg-white rounded p-1 font-bold"><i class="fa-solid fa-chevron-left"></i></button>
+       
+        <button type="button" id="btnNextCity" class="disabled:text-gray-400 bg-white rounded p-1 font-bold"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+   
+    <script src="/index.975ef6c8.js" defer=""></script>
+      
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+   "id": "Meteo",
+
+    "name": "App Meteo",
+
+    "icons": [
+        {
+           "src": "./asset/img/icon512.png",
+           "type": "image/png",
+           "sizes": "512x512"
+        },
+        {
+           "src": "./asset/img/icon1024.png",
+           "type": "image/png",
+           "sizes": "1024x1024"
+        }
+     ],
+
+     "start_url": "/",
+
+     "display": "standalone"
+ }
+
