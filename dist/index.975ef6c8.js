@@ -603,42 +603,42 @@ const weather = [
         "records": [
             {
                 "date": new Date(),
-                "temperature": "24",
+                "temperature": "24\xb0",
                 "state": "nuage"
             },
             {
                 "date": new Date(Date.now() + 86400000),
-                "temperature": "28",
+                "temperature": "28\xb0",
                 "state": "nuage"
             },
             {
                 "date": new Date(Date.now() + 172800000),
-                "temperature": "28",
+                "temperature": "28\xb0",
                 "state": "soleil"
             },
             {
                 "date": new Date(Date.now() + 259200000),
-                "temperature": "28",
+                "temperature": "28\xb0",
                 "state": "soleil"
             },
             {
                 "date": new Date(Date.now() + 345600000),
-                "temperature": "24",
+                "temperature": "24\xb0",
                 "state": "soleil"
             },
             {
                 "date": new Date(Date.now() + 432000000),
-                "temperature": "18",
+                "temperature": "18\xb0",
                 "state": "orage"
             },
             {
                 "date": new Date(Date.now() + 518400000),
-                "temperature": "28",
+                "temperature": "28\xb0",
                 "state": "soleil"
             },
             {
                 "date": new Date(Date.now() + 604800000),
-                "temperature": "28",
+                "temperature": "28\xb0",
                 "state": "soleil"
             }
         ]
@@ -649,42 +649,42 @@ const weather = [
         "records": [
             {
                 "date": new Date(),
-                "temperature": "11",
+                "temperature": "11\xb0",
                 "state": "soleil"
             },
             {
                 "date": new Date(Date.now() + 86400000),
-                "temperature": "11",
+                "temperature": "11\xb0",
                 "state": "nuage"
             },
             {
                 "date": new Date(Date.now() + 172800000),
-                "temperature": "8",
+                "temperature": "8\xb0",
                 "state": "nuage"
             },
             {
                 "date": new Date(Date.now() + 259200000),
-                "temperature": "7",
+                "temperature": "7\xb0",
                 "state": "nuage"
             },
             {
                 "date": new Date(Date.now() + 345600000),
-                "temperature": "8",
+                "temperature": "8\xb0",
                 "state": "pluie"
             },
             {
                 "date": new Date(Date.now() + 432000000),
-                "temperature": "7",
+                "temperature": "7\xb0",
                 "state": "pluie"
             },
             {
                 "date": new Date(Date.now() + 518400000),
-                "temperature": "28",
+                "temperature": "28\xb0",
                 "state": "pluie"
             },
             {
                 "date": new Date(Date.now() + 604800000),
-                "temperature": "11",
+                "temperature": "11\xb0",
                 "state": "nuage"
             }
         ]
@@ -695,42 +695,42 @@ const weather = [
         "records": [
             {
                 "date": new Date(),
-                "temperature": "24",
+                "temperature": "24\xb0",
                 "state": "orage"
             },
             {
                 "date": new Date(Date.now() + 86400000),
-                "temperature": "28",
+                "temperature": "28\xb0",
                 "state": "nuage"
             },
             {
                 "date": new Date(Date.now() + 172800000),
-                "temperature": "28",
+                "temperature": "28\xb0",
                 "state": "soleil"
             },
             {
                 "date": new Date(Date.now() + 259200000),
-                "temperature": "28",
+                "temperature": "28\xb0",
                 "state": "soleil"
             },
             {
                 "date": new Date(Date.now() + 345600000),
-                "temperature": "24",
+                "temperature": "24\xb0",
                 "state": "soleil"
             },
             {
                 "date": new Date(Date.now() + 432000000),
-                "temperature": "18",
+                "temperature": "18\xb0",
                 "state": "orage"
             },
             {
                 "date": new Date(Date.now() + 518400000),
-                "temperature": "28",
+                "temperature": "28\xb0",
                 "state": "soleil"
             },
             {
                 "date": new Date(Date.now() + 604800000),
-                "temperature": "28",
+                "temperature": "28\xb0",
                 "state": "soleil"
             }
         ]
